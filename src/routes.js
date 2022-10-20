@@ -1,7 +1,6 @@
 const express = require('express')
 const router = express.Router();
 const Campus = require('./models/campus');
-const docent = require('./models/docent');
 const Docent = require('./models/docent')
 
 router.get('/', (req, res) => {
@@ -128,7 +127,7 @@ router.post('/docent/create', async(req, res) => {
     }
 });
 
-router.put('/campus/update/:id', async(req, res) => {
+router.put('/docent/update/:id', async(req, res) => {
     console.log('/docent/update/:id route called');
     try {
         res.send(await Docent.findByIdAndUpdate(req.params.id, { $set: req.body }));
