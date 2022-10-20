@@ -1,0 +1,110 @@
+[
+  {
+    "name": "De Ham",
+    "location": "Mechelen",
+    "address": "Raghenoplein 21bis 2800 Mechelen",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/header_campusdeham.jpg"
+  },
+  {
+    "name": "De Nayer",
+    "location": "Sint-Katelijne-Waver",
+    "address": "Jan De Nayerlaan 5 2860 Sint-Katelijne-Waver",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/campus_denayer_tm.png"
+  },
+  {
+    "name": "De Vest",
+    "location": "Mechelen",
+    "address": "Zandpoortvest 60 2800 Mechelen",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/devest.jpg"
+  },
+  {
+    "name": "Geel",
+    "location": "Geel",
+    "address": "Kleinhoefstraat 4 2440 Geel",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/campusgeel.png"
+  },
+  {
+    "name": "Kruidtuin",
+    "location": "Mechelen",
+    "address": "Lange Ridderstraat 44 2800 Mechelen",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/header_campuskruidtuin.jpg"
+  },
+  {
+    "name": "Lier",
+    "location": "Lier",
+    "address": "Antwerpsestraat 99 2500 Lier",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/lier_1600x330.png"
+  },
+  {
+    "name": "Lucas Faydherbe",
+    "location": "Mechelen",
+    "address": "Zandpoortvest 16 2800 Mechelen",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/lucasfaydherbe_tm.png"
+  },
+  {
+    "name": "National",
+    "location": "Antwerpen",
+    "address": "Kronenburgstraat 62-68 2000 Antwerpen",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/national_0.png"
+  },
+  {
+    "name": "Sanderus",
+    "location": "Antwerpen",
+    "address": "Molenstraat 8 2018 Antwerpen",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/sanderus_1.png"
+  },
+  {
+    "name": "Sint-Andries",
+    "location": "Antwerpen",
+    "address": "Sint-Andriesstraat 2 2000 Antwerpen",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/sint-andries.png"
+  },
+  {
+    "name": "Turnhout",
+    "location": "Turnhout",
+    "address": "Campus Blairon 800 2300 Turnhout",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/tm_campusturnhoutblairon.png"
+  },
+  {
+    "name": "Vorselaar",
+    "location": "Vorselaar",
+    "address": "Lepelstraat 2 2290 Vorselaar",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/tm_campusvorselaar.png"
+  },
+  {
+    "name": "Lesplaats Duffel (SNOR)",
+    "location": "Duffel",
+    "address": "Rooienberg 23 2570 Duffel",
+    "image": "https://www.thomasmore.be/sites/default/files/images/snor_header.png"
+  },
+  {
+    "name": "Lesplaats Lier (SAL)",
+    "location": "Lier",
+    "address": "Kolveniersvest 24 2500 Lier",
+    "image": "https://www.thomasmore.be/sites/default/files/images/lier_1600x330.png"
+  },
+  {
+    "name": "Lesplaats Sint-Niklaas",
+    "location": "Sint-Niklaas",
+    "address": "Kroonmolenstraat 4 9100 Sint-Niklaas",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/sint-niklaas_header.png"
+  },
+  {
+    "name": "Lesplaats Turnhout (High Tech)",
+    "location": "Turnhout",
+    "address": "Kempenlaan 36 2300 Turnhout",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/lesplaats_turnhout_hightech.jpg"
+  },
+  {
+    "name": "Lesplaats Turnhout (Hivset)",
+    "location": "Turnhout",
+    "address": "Herentalsstraat 70 2300 Turnhout",
+    "image": "https://www.thomasmore.be/sites/default/files/hivset_header.png"
+  },
+  {
+    "name": "Lesplaats Westerlo",
+    "location": "Westerlo",
+    "address": "Denis Voetsstraat 21 2260 Westerlo",
+    "image": "https://www.thomasmore.be/sites/default/files/header_images/westerlo_header_0.png"
+  }
+]
