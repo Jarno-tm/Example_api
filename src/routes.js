@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router();
-const Campus = require('./models/campus')
+const Campus = require('./models/campus');
+const docent = require('./models/docent');
 const Docent = require('./models/docent')
 
 router.get('/', (req, res) => {
@@ -101,6 +102,46 @@ router.get('/docent', async(req, res) => {
     console.log('/docent route called');
     try {
         res.json(await Docent.find().populate('campussen').sort('voornaam'));
+    } catch (e) {
+        console.log(e);
+        res.sendStatus(500);
+    }
+});
+
+router.get('/docent/:id', async(req, res) => {
+    console.log('/docent/:id route called');
+    try {
+        res.json(await Docent.findById(req.params.id));
+    } catch (e) {
+        console.log(e);
+        res.sendStatus(500);
+    }
+});
+
+router.post('/docent/create', async(req, res) => {
+    console.log('/docent/create route called');
+    try {
+        res.send(await Docent.create(req.body));
+    } catch (e) {
+        console.log(e);
+        res.sendStatus(500);
+    }
+});
+
+router.put('/campus/update/:id', async(req, res) => {
+    console.log('/docent/update/:id route called');
+    try {
+        res.send(await Docent.findByIdAndUpdate(req.params.id, { $set: req.body }));
+    } catch (e) {
+        console.log(e);
+        res.sendStatus(500);
+    }
+});
+
+router.delete('/docent/delete/:id', async(req, res) => {
+    console.log('/docent/delete/:id route called');
+    try {
+        res.send(await Docent.findByIdAndDelete(req.params.id));
     } catch (e) {
         console.log(e);
         res.sendStatus(500);
